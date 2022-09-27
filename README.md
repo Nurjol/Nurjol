@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nurjol Badyelkhan</h1>
 <h3 align="center">Senior student who wants to be AI engineer</h3>
 
-<img align="right" alt="Coding" width="400" src="https://tenor.com/view/coding-gif-24625099”>
+<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/4171367-Coding-Freak/attachments/10240400?mode=media">
 - 🔭 I’m currently working on **Fall detection using AI**
 
 - 🌱 I’m currently learning **Database stuff(SQL...)**
