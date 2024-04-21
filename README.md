@@ -2,7 +2,7 @@
 <h3 align="center">Senior student who wants to be AI engineer</h3>
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
-- 🔭 I’m currently working on **Fall detection using AI**
+- 🔭 I’m currently working on **Stable Diffusion Models**
 
 - 🌱 I’m currently learning **Database stuff(SQL...)**
 
