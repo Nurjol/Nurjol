@@ -4,7 +4,7 @@
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
 - 🔭 I’m currently working on **Multi Agent Systems**
 
-- 🌱 I’m currently learning **Database stuff(SQL...)**
+- 🌱 I’m currently learning **Chatbot for E-Mongolia**
 
 - 🤝 I’m looking for help with **Find a job or Internship**
 
