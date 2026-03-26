@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Nurjol Badyelkhan</h1>
-<h3 align="center">Senior student who wants to be AI engineer</h3>
+<h3 align="center">AI Engingeer at E-Mongolia</h3>
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
-- 🔭 I’m currently working on **Stable Diffusion Models**
+- 🔭 I’m currently working on **Multi Agent Systems**
 
 - 🌱 I’m currently learning **Database stuff(SQL...)**
 
