@@ -1,0 +1,60 @@
+<svg width="880" height="340" viewBox="0 0 880 340" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace" font-size="15">
+  <defs>
+    <clipPath id="type1"><rect x="48" y="56" width="0" height="22"><animate attributeName="width" from="0" to="70" begin="0.4s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type2"><rect x="48" y="108" width="0" height="22"><animate attributeName="width" from="0" to="130" begin="1.7s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type3"><rect x="48" y="186" width="0" height="22"><animate attributeName="width" from="0" to="195" begin="3.6s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type4"><rect x="48" y="238" width="0" height="22"><animate attributeName="width" from="0" to="150" begin="5.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- Window -->
+  <rect x="1" y="1" width="878" height="338" rx="14" fill="#0a0e1a"/>
+  <rect x="1" y="1" width="878" height="338" rx="14" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <path d="M1 15 A14 14 0 0 1 15 1 H865 A14 14 0 0 1 879 15 V38 H1 Z" fill="#00f5ff" fill-opacity="0.06"/>
+  <line x1="1" y1="38" x2="879" y2="38" stroke="#00f5ff" stroke-opacity="0.15"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="84" y="25" fill="#00f5ff" fill-opacity="0.65" font-size="13">nurjol@github:~$</text>
+
+  <!-- Line 1: whoami -->
+  <text x="28" y="72" fill="#00f5ff" opacity="0"><set attributeName="opacity" to="0.7" begin="0.3s"/>$</text>
+  <text x="48" y="72" fill="#e2e8f0" clip-path="url(#type1)">whoami</text>
+  <text x="28" y="98" fill="#00f5ff" opacity="0">&#9656; Nurjol Badyelkhan &#8212; AI Engineer @ E-Mongolia
+    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.35s" fill="freeze"/>
+  </text>
+
+  <!-- Line 2: stack -->
+  <text x="28" y="124" fill="#00f5ff" opacity="0"><set attributeName="opacity" to="0.7" begin="1.6s"/>$</text>
+  <text x="48" y="124" fill="#e2e8f0" clip-path="url(#type2)">cat stack.txt</text>
+  <text x="28" y="150" fill="#94a3b8" opacity="0">&#9656; Python &#183; SQL &#183; LangChain &#183; LlamaIndex &#183; HuggingFace &#183; Ollama &#183; RAG
+    <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.35s" fill="freeze"/>
+  </text>
+  <text x="28" y="176" fill="#94a3b8" opacity="0">&#9656; BigQuery &#183; Airflow &#183; Dataform &#183; Tableau &#183; Power BI &#183; GCP
+    <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.35s" fill="freeze"/>
+  </text>
+
+  <!-- Line 3: achievements -->
+  <text x="28" y="202" fill="#00f5ff" opacity="0"><set attributeName="opacity" to="0.7" begin="3.5s"/>$</text>
+  <text x="48" y="202" fill="#e2e8f0" clip-path="url(#type3)">cat achievements.txt</text>
+  <text x="28" y="228" fill="#ffd700" opacity="0">&#9656; Google Cloud ACE &#183; Math Olympiad Gold &#183; Informatics Silver &#183; 6 Languages
+    <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.35s" fill="freeze"/>
+  </text>
+
+  <!-- Line 4: connect -->
+  <text x="28" y="254" fill="#00f5ff" opacity="0"><set attributeName="opacity" to="0.7" begin="5.4s"/>$</text>
+  <text x="48" y="254" fill="#e2e8f0" clip-path="url(#type4)">./connect --all</text>
+  <text x="28" y="280" fill="#00ff88" opacity="0">&#9656; Building LLM pipelines for government-scale digital services.
+    <animate attributeName="opacity" from="0" to="1" begin="6.4s" dur="0.35s" fill="freeze"/>
+  </text>
+  <text x="28" y="306" fill="#ff0080" opacity="0">&#9656; Let's build something cool together!
+    <animate attributeName="opacity" from="0" to="1" begin="6.9s" dur="0.35s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <text x="28" y="330" fill="#00f5ff" opacity="0"><set attributeName="opacity" to="0.7" begin="7.5s"/>$</text>
+  <rect x="48" y="317" width="9" height="16" fill="#00f5ff" opacity="0">
+    <animate attributeName="opacity" values="1;1;0;0" begin="7.5s" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,91 @@
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Shimmering neon gradient for the name -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#ff0080;#00ff88;#00f5ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ff0080">
+        <animate attributeName="stop-color" values="#ff0080;#00ff88;#00f5ff;#ff0080" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ff88">
+        <animate attributeName="stop-color" values="#00ff88;#00f5ff;#ff0080;#00ff88" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="240" rx="16" fill="#050816"/>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="15.5" stroke="#00f5ff" stroke-opacity="0.25"/>
+
+  <!-- Ambient orbs -->
+  <circle cx="120" cy="60" r="70" fill="#00f5ff" opacity="0.10" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="780" cy="180" r="80" fill="#ff0080" opacity="0.10" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.10;0.20;0.10" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="220" r="60" fill="#00ff88" opacity="0.07" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.07;0.16;0.07" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Grid dots -->
+  <g fill="#00f5ff" opacity="0.12">
+    <circle cx="60" cy="200" r="1.5"/><circle cx="100" cy="180" r="1.5"/><circle cx="840" cy="50" r="1.5"/>
+    <circle cx="800" cy="80" r="1.5"/><circle cx="740" cy="40" r="1.5"/><circle cx="160" cy="220" r="1.5"/>
+    <circle cx="870" cy="120" r="1.5"/><circle cx="40" cy="120" r="1.5"/>
+  </g>
+
+  <!-- Hello, World label -->
+  <g font-family="'Courier New', monospace" font-size="14" letter-spacing="4">
+    <text x="450" y="58" text-anchor="middle" fill="#00f5ff" opacity="0.85">&lt; HELLO, WORLD. /&gt;</text>
+    <line x1="290" y1="53" x2="330" y2="53" stroke="#00f5ff" stroke-width="1" opacity="0.6"/>
+    <line x1="570" y1="53" x2="610" y2="53" stroke="#00f5ff" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- Name -->
+  <text x="450" y="128" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="54" font-weight="800" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="1">
+    NURJOL BADYELKHAN
+  </text>
+
+  <!-- Cycling roles (12s loop, 4 roles x 3s) -->
+  <g font-family="'Courier New', monospace" font-size="20" text-anchor="middle">
+    <text x="450" y="172" fill="#00f5ff" opacity="0">
+      &#9656; AI Engineer @ E-Mongolia
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.04;0.21;0.25;0.5;0.75;0.9;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="172" fill="#ff0080" opacity="0">
+      &#9656; Data Scientist
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.25;0.29;0.46;0.5;0.75;0.9;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="172" fill="#00ff88" opacity="0">
+      &#9656; LLM &amp; RAG Systems Builder
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.25;0.5;0.54;0.71;0.75;0.9;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="172" fill="#ffd700" opacity="0">
+      &#9656; ML Researcher
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.25;0.5;0.75;0.79;0.96;1;1;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Location -->
+  <text x="450" y="206" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#64748b" letter-spacing="2">
+    ULAANBAATAR, MONGOLIA
+  </text>
+
+  <!-- Animated bottom scan line -->
+  <rect x="0" y="236" width="180" height="3" rx="1.5" fill="#00f5ff" opacity="0.8">
+    <animate attributeName="x" values="-180;900" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
